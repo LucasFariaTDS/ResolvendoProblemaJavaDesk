@@ -49,9 +49,9 @@ public class Main {
     private static void executarOpcao(int opcao, ConsultaController controller) {
         switch (opcao) {
             case 1 -> controller.agendarConsulta();
-            case 2 -> controller.listarConsultasPorPaciente();
-            case 3 -> controller.editarConsulta();
-            case 4 -> controller.excluirConsulta();
+            case 2 -> controller.editarConsulta();
+            case 3 -> controller.excluirConsulta();
+            case 4 -> controller.listarConsultasPorPaciente();
             case 5 -> controller.listarMedicos();
             case 6 -> System.out.println("Tenha um bom dia / boa tarde / boa noite...");
         }
